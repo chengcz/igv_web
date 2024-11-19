@@ -1,0 +1,9 @@
+.DS_Store
+*.iml
+/dist/
+/.idea/
+/node_modules/
+/igvwebConfig-private.js
+/package-lock.json
+/css/.sass-cache
+/scripts/sandbox/
