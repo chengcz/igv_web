@@ -1,0 +1,78 @@
+{
+  "label": "Repeat Masker",
+  "description": "Repeat masker tracks from <a href=http://genomewiki.ucsc.edu/index.php/RepeatMasker>UCSC</a>",
+  "tracks": [
+    {
+      "name": "SINE",
+      "url": "resources/reference/hg19/rmsk/SINE.rmask.gz",
+      "indexURL": "resources/reference/hg19/rmsk/SINE.rmask.gz.tbi",
+      "type": "annotation",
+      "format": "rmsk",
+      "visibilityWindow": 10000000
+    },
+    {
+      "name": "LINE",
+      "url": "resources/reference/hg19/rmsk/LINE.rmask.gz",
+      "indexURL": "resources/reference/hg19/rmsk/LINE.rmask.gz.tbi",
+      "type": "annotation",
+      "format": "rmsk",
+      "visibilityWindow": 10000000
+    },
+    {
+      "name": "LTR",
+      "url": "resources/reference/hg19/rmsk/LTR.rmask.gz",
+      "indexURL": "resources/reference/hg19/rmsk/LTR.rmask.gz.tbi",
+      "type": "annotation",
+      "format": "rmsk",
+      "visibilityWindow": 10000000
+    },
+    {
+      "name": "DNA",
+      "url": "resources/reference/hg19/rmsk/DNA.rmask.gz",
+      "indexURL": "resources/reference/hg19/rmsk/DNA.rmask.gz.tbi",
+      "type": "annotation",
+      "format": "rmsk",
+      "visibilityWindow": 10000000
+    },
+    {
+      "name": "Simple",
+      "url": "resources/reference/hg19/rmsk/Simple_repeat.rmask.gz",
+      "indexURL": "resources/reference/hg19/rmsk/Simple_repeat.rmask.gz.tbi",
+      "type": "annotation",
+      "format": "rmsk",
+      "visibilityWindow": 10000000
+    },
+    {
+      "name": "Low Complexity",
+      "url": "resources/reference/hg19/rmsk/Low_complexity.rmask.gz",
+      "indexURL": "resources/reference/hg19/rmsk/Low_complexity.rmask.gz.tbi",
+      "type": "annotation",
+      "format": "rmsk",
+      "visibilityWindow": 10000000
+    },
+    {
+      "name": "Satellite",
+      "url": "resources/reference/hg19/rmsk/Satellite.rmask.gz",
+      "indexURL": "resources/reference/hg19/rmsk/Satellite.rmask.gz.tbi",
+      "type": "annotation",
+      "format": "rmsk",
+      "visibilityWindow": 10000000
+    },
+    {
+      "name": "RC",
+      "url": "resources/reference/hg19/rmsk/RC.rmask.gz",
+      "indexURL": "resources/reference/hg19/rmsk/RC.rmask.gz.tbi",
+      "type": "annotation",
+      "format": "rmsk",
+      "visibilityWindow": 10000000
+    },
+    {
+      "name": "RNA",
+      "url": "resources/reference/hg19/rmsk/RNA.rmask.gz",
+      "indexURL": "resources/reference/hg19/rmsk/RNA.rmask.gz.tbi",
+      "type": "annotation",
+      "format": "rmsk",
+      "visibilityWindow": 10000000
+    }
+  ]
+}
