@@ -42,7 +42,7 @@
 
   <script src="./igvwebConfig.js"></script>
 
-  <script type="module" src="js/app.js"></script>
+	<script src=./app_bundle-2.2.7.js></script>
 
 
 </head>
@@ -199,6 +199,10 @@
             <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#igv-app-session-url-modal">
               Load URL ...
             </button>
+
+            <!-- Session List -->
+            <div id="igv-session-list-divider" class="dropdown-divider"></div>
+
             <div class="dropdown-divider"></div>
             <!-- Save local session file -->
             <button class="dropdown-item" type="button" id="save-session-button" data-bs-toggle="modal" data-bs-target="#igv-app-session-save-modal">
@@ -527,3 +531,4 @@
 </body>
 
 </html>
+
