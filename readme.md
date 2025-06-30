@@ -7,6 +7,8 @@
 > date: 20220310
 
 
+- https://igv.org/doc/webapp/#Hosting/
+
 
 ## Usage
 
@@ -20,7 +22,7 @@
 
      > ```shell
      > python link4iGVweb.py $BamFile
-     > 
+     >
      > # OR
      > python link4iGVweb.py $ProjectDir
      > ```
@@ -39,6 +41,7 @@
 
    ```shell
    wget -c https://github.com/igvteam/igv-webapp/archive/refs/tags/v1.9.0.zip
+   wget -c https://igv.org/app-archive/igv-webapp.2.2.7.zip
    ```
 
 2. 修改 igv-webapp 程序中远程路径
@@ -51,7 +54,7 @@
 
    ```shell
    COPYFILE_DISABLE=1 tar zcf igv-webapp.1.9.0.tar.gz igv-webapp.1.9.0
-   
+
    docker build -t igv-webapp .
    ```
 
@@ -62,7 +65,7 @@
    	-v $LocalResouces:/opt/igv-webapp.1.9.0/resources \
    	-v /glusterfs/home/:/glusterfs/home/ \
    	-v /titan3:/titan3 \
-     igv-webapp 
+     igv-webapp
    ```
 
    注意事项：
