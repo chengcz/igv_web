@@ -13,8 +13,10 @@ user = os.getenv("USER")
 if not user:
     user = "igv_anonymous"
 
-IGVURL = "http://10.81.112.94:50001/"
-RESOURCEDIR = pathjoin("/titan3/igv-webapp.1.9.0/resources/data/", user)
+IGVURL = "http://${SERVERIP}:${PORT}/"
+
+ThisScriptPath = dirname(abspath(__file__))
+RESOURCEDIR = pathjoin(ThisScriptPath, "igv-webapp/resources/data/", user)
 RESOURCEURL = pathjoin("resources/data/", user)
 
 
