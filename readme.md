@@ -79,6 +79,17 @@
    本地数据库文件、bam 储存在目录 **/titan3/igv-webapp.1.9.0**
 
 
+6. nginx 
 
+vi /etc/nginx/sites-available/default
 
+server {
+    listen  8889;
+    listen [::]:8889;
+
+    location / {
+        root   /path/to/service/igv_web/igv-webapp;
+        index  index.html index.htm;
+    }
+}
 
