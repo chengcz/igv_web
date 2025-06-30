@@ -87,6 +87,24 @@
     ]
   },
   {
+    "id": "b37",
+    "name": "Human (GRCh78/hs37d5)",
+    "fastaURL": "resources/reference/b37/hs37d5.fa",
+    "indexURL": "resources/reference/b37/hs37d5.fa.fai",
+    "chromSizesURL": "resources/reference/b37/hs37d5.fa.sizes",
+    "chromosomeOrder": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,X,Y",
+    "tracks": [
+      {
+        "name": "Refseq Select",
+        "format": "refgene",
+        "url": "resources/reference/b37/ncbiRefSeqSelect.txt",
+        "indexed": false,
+        "order": 1000001,
+        "infoURL": "https://www.ncbi.nlm.nih.gov/gene/?term=$$"
+      }
+    ]
+  },
+  {
     "id": "hg38",
     "name": "Human (GRCh38/hg38)",
     "fastaURL": "https://igv.org/genomes/data/hg38/hg38.fa",
